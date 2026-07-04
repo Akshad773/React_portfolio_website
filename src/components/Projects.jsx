@@ -34,38 +34,56 @@ const ProjectCard = lazy(() => Promise.resolve({
 const projects = [
   {
     id: 1,
-    title: 'E-Commerce Cart Application',
+    title: 'E-Commerce Platform',
     date: '2024',
-    description: 'A fully functional shopping cart application with Redux state management, featuring add/remove items, quantity adjustment, and persistent cart state.',
-    tech: ['React', 'Redux', 'JavaScript', 'CSS'],
-    github: 'https://github.com',
+    description: 'Full-stack e-commerce application with product catalog, shopping cart, and order management. Features user authentication, payment integration, and admin dashboard.',
+    tech: ['Spring Boot', 'React', 'MySQL', 'REST API', 'JWT'],
+    github: 'https://github.com/akshadDambhare',
     demo: '#'
   },
   {
     id: 2,
-    title: 'Lost & Found Platform',
+    title: 'Task Management System',
     date: '2024',
-    description: 'A comprehensive platform for reporting lost and found items with search, filter, and real-time updates using Firebase. Users can post, edit, and manage their reports.',
-    tech: ['React', 'Firebase', 'Vite', 'Context API'],
-    github: 'https://github.com',
+    description: 'A comprehensive task management application with user authentication, task assignment, deadline tracking, and real-time notifications. Built with Spring Boot backend and React frontend.',
+    tech: ['Spring Boot', 'React', 'Hibernate', 'SQL', 'RESTful API'],
+    github: 'https://github.com/akshadDambhare',
     demo: '#'
   },
   {
     id: 3,
-    title: 'Mobile Store CRUD App',
+    title: 'Bank Management System',
     date: '2024',
-    description: 'Full-stack mobile store application with complete CRUD operations, JSON Server backend, and responsive design for inventory management.',
-    tech: ['React', 'Node.js', 'JSON Server', 'CSS Grid'],
-    github: 'https://github.com',
+    description: 'A Java-based bank management system with account creation, deposit/withdrawal operations, and transaction history. Features secure login and database persistence.',
+    tech: ['Java', 'JDBC', 'MySQL', 'Swing GUI'],
+    github: 'https://github.com/akshadDambhare',
     demo: '#'
   },
   {
     id: 4,
-    title: 'Contact Card Component',
+    title: 'Student Portal',
     date: '2023',
-    description: 'Reusable React component library for displaying contact information with filtering and search capabilities.',
-    tech: ['React', 'Component Design', 'Vite'],
-    github: 'https://github.com',
+    description: 'A web-based student portal for viewing grades, course registration, and academic information. Includes admin panel for managing student data and course offerings.',
+    tech: ['Spring Boot', 'React', 'Hibernate', 'PostgreSQL'],
+    github: 'https://github.com/akshadDambhare',
+    demo: '#'
+  },
+  {
+    id: 5,
+    title: 'REST API Service',
+    date: '2024',
+    description: 'Scalable RESTful API built with Spring Boot for managing user data, authentication, and business logic. Includes comprehensive API documentation and error handling.',
+    tech: ['Spring Boot', 'Spring Security', 'MySQL', 'Postman', 'Swagger'],
+    github: 'https://github.com/akshadDambhare',
+    demo: '#'
+  },
+  {
+    id: 6,
+    title: 'E-Commerce Cart Application',
+    date: '2024',
+    description: 'A fully functional shopping cart application with React frontend, featuring add/remove items, quantity adjustment, and persistent cart state management.',
+    tech: ['React', 'JavaScript', 'CSS', 'Redux'],
+    github: 'https://github.com/akshadDambhare',
     demo: '#'
   }
 ];

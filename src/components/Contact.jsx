@@ -52,26 +52,26 @@ export default function Contact() {
     {
       icon: '📧',
       title: 'Email',
-      value: 'your.email@example.com',
-      link: 'mailto:your.email@example.com'
+      value: 'akshad.dambhare@example.com',
+      link: 'mailto:akshad.dambhare@example.com'
     },
     {
       icon: '💼',
       title: 'LinkedIn',
-      value: 'linkedin.com/in/yourprofile',
-      link: 'https://linkedin.com'
+      value: 'linkedin.com/in/akshadDambhare',
+      link: 'https://linkedin.com/in/akshadDambhare'
     },
     {
       icon: '🐙',
       title: 'GitHub',
-      value: 'github.com/yourprofile',
-      link: 'https://github.com'
+      value: 'github.com/akshadDambhare',
+      link: 'https://github.com/akshadDambhare'
     },
     {
-      icon: '🐦',
-      title: 'Twitter',
-      value: '@yourhandle',
-      link: 'https://twitter.com'
+      icon: '📱',
+      title: 'Phone',
+      value: '+91 XXXXXXXXXX',
+      link: 'tel:+91XXXXXXXXXX'
     }
   ];
 
