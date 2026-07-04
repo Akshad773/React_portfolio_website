@@ -1,0 +1,183 @@
+/* ========================
+   Resume Section
+   ======================== */
+
+.resume {
+  background: white;
+}
+
+.resume-content {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 50px;
+}
+
+.resume-section {
+  background: var(--light-bg);
+  padding: 40px;
+  border-radius: 12px;
+  border-left: 4px solid var(--primary-color);
+}
+
+.section-title {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.section-title .icon {
+  font-size: 2rem;
+}
+
+.resume-item {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid var(--border-color);
+  transition: var(--transition);
+  animation: slideInLeft 0.6s ease-out;
+}
+
+.resume-item:hover {
+  padding-left: 10px;
+}
+
+.resume-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.resume-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 8px;
+  gap: 20px;
+}
+
+.resume-header h4 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: var(--text-dark);
+  flex: 1;
+}
+
+.period {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  color: white;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.company {
+  margin: 8px 0 15px 0;
+  font-size: 1rem;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.responsibilities {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.responsibilities li {
+  padding-left: 24px;
+  position: relative;
+  margin-bottom: 10px;
+  color: var(--text-light);
+  line-height: 1.6;
+}
+
+.responsibilities li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* ========================
+   Certifications Section
+   ======================== */
+
+.certifications-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.certification-badge {
+  background: white;
+  border: 2px solid var(--primary-color);
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 600;
+  color: var(--primary-color);
+  transition: var(--transition);
+}
+
+.certification-badge:hover {
+  background: var(--primary-color);
+  color: white;
+  transform: scale(1.05);
+}
+
+/* ========================
+   Resume Download
+   ======================== */
+
+.resume-download {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.download-btn {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  color: white;
+  padding: 14px 32px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: var(--transition);
+  box-shadow: var(--shadow-md);
+}
+
+.download-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
+}
+
+@media (max-width: 768px) {
+  .resume-section {
+    padding: 25px;
+  }
+
+  .resume-header {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .resume-header h4 {
+    font-size: 1.1rem;
+  }
+
+  .period {
+    display: inline-block;
+  }
+
+  .certifications-list {
+    grid-template-columns: 1fr;
+  }
+}
