@@ -52,8 +52,8 @@ export default function Contact() {
     {
       icon: '📧',
       title: 'Email',
-      value: 'akshad.dambhare@example.com',
-      link: 'mailto:akshad.dambhare@example.com'
+      value: 'akshaddambhare773@gmail.com',
+      link: 'mailto:akshaddambhare773@gmail.com'
     },
     {
       icon: '💼',
@@ -64,8 +64,8 @@ export default function Contact() {
     {
       icon: '🐙',
       title: 'GitHub',
-      value: 'github.com/akshadDambhare',
-      link: 'https://github.com/akshadDambhare'
+      value: 'github.com/Akshad773',
+      link: 'https://github.com/Akshad773'
     },
     {
       icon: '📱',

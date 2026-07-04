@@ -38,7 +38,7 @@ const projects = [
     date: '2024',
     description: 'Full-stack e-commerce application with product catalog, shopping cart, and order management. Features user authentication, payment integration, and admin dashboard.',
     tech: ['Spring Boot', 'React', 'MySQL', 'REST API', 'JWT'],
-    github: 'https://github.com/akshadDambhare',
+    github: 'https://github.com/Akshad773',
     demo: '#'
   },
   {
@@ -47,7 +47,7 @@ const projects = [
     date: '2024',
     description: 'A comprehensive task management application with user authentication, task assignment, deadline tracking, and real-time notifications. Built with Spring Boot backend and React frontend.',
     tech: ['Spring Boot', 'React', 'Hibernate', 'SQL', 'RESTful API'],
-    github: 'https://github.com/akshadDambhare',
+    github: 'https://github.com/Akshad773',
     demo: '#'
   },
   {
@@ -56,7 +56,7 @@ const projects = [
     date: '2024',
     description: 'A Java-based bank management system with account creation, deposit/withdrawal operations, and transaction history. Features secure login and database persistence.',
     tech: ['Java', 'JDBC', 'MySQL', 'Swing GUI'],
-    github: 'https://github.com/akshadDambhare',
+    github: 'https://github.com/Akshad773',
     demo: '#'
   },
   {
@@ -65,7 +65,7 @@ const projects = [
     date: '2023',
     description: 'A web-based student portal for viewing grades, course registration, and academic information. Includes admin panel for managing student data and course offerings.',
     tech: ['Spring Boot', 'React', 'Hibernate', 'PostgreSQL'],
-    github: 'https://github.com/akshadDambhare',
+    github: 'https://github.com/Akshad773',
     demo: '#'
   },
   {
@@ -74,7 +74,7 @@ const projects = [
     date: '2024',
     description: 'Scalable RESTful API built with Spring Boot for managing user data, authentication, and business logic. Includes comprehensive API documentation and error handling.',
     tech: ['Spring Boot', 'Spring Security', 'MySQL', 'Postman', 'Swagger'],
-    github: 'https://github.com/akshadDambhare',
+    github: 'https://github.com/Akshad773',
     demo: '#'
   },
   {
@@ -83,7 +83,7 @@ const projects = [
     date: '2024',
     description: 'A fully functional shopping cart application with React frontend, featuring add/remove items, quantity adjustment, and persistent cart state management.',
     tech: ['React', 'JavaScript', 'CSS', 'Redux'],
-    github: 'https://github.com/akshadDambhare',
+    github: 'https://github.com/Akshad773',
     demo: '#'
   }
 ];

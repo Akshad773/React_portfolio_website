@@ -24,9 +24,9 @@ export default function Footer() {
         <div className="footer-section">
           <h4>Social</h4>
           <div className="social-links">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>
+            <a href="https://github.com/Akshad773" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://linkedin.com/in/akshadDambhare" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="mailto:akshaddambhare773@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
           </div>
         </div>
       </div>
